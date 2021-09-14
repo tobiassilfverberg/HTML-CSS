@@ -1,10 +1,40 @@
 body {
   background-color: lightsalmon;
   font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+}
+
+nav {
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  padding-inline-start: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 main {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +48,7 @@ h1 {
   padding: 20px;
   border-radius: 50%;
   display: inline;
+  margin-bottom: 25px;
 }
 
 h1:hover {
@@ -26,12 +57,15 @@ h1:hover {
 
 h3 {
   color: lime;
+  margin-bottom: 15px;
 }
 
 p {
   width: 200px;
   border: 2px dashed black;
   padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 p:hover {
@@ -42,8 +76,27 @@ div {
   width: 200px;
   border: 3px solid grey;
   padding: 5px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 div:hover {
   background-color: yellow;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+#spelare1 {
+  color: red;
+}
+
+#spelare2 {
+  color: green;
+}
+
+#spelare3 {
+  color: blue;
 }
