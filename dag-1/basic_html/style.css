@@ -15,8 +15,8 @@ h1 {
   font-style: italic;
   color: crimson;
   border: 3px dotted blue;
-  padding: 5px;
-  border-radius: 20%;
+  padding: 20px;
+  border-radius: 50%;
   display: inline;
 }
 
