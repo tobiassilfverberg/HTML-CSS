@@ -144,8 +144,56 @@ h3 {
   border: 1px solid black;
 }
 
-#infoPage h1 {
-  color: red;
+container {
+  background-image: url("/html-css/dag-2/assets/m8.jpeg");
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  height: 100vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sideNav {
+  padding-inline-start: 0px;
+  margin-top: 15px;
+}
+
+#sideNav > li {
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+
+.sideNavLink {
+  color: black;
+  font-size: 1.2em;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.sectionHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+section > p {
+  width: 50%;
+  text-align: center;
 }
 
 footer {
