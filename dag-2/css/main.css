@@ -2,22 +2,25 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100vh;
 }
 
 #topNav {
-  height: 50px;
+  height: 75px;
   width: 100vw;
-  background-color: rgba(0, 105, 235, 0.5);
   display: flex;
   align-items: center;
   position: fixed;
 }
 
 #topNav > img {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   margin-left: 15px;
 }
@@ -31,6 +34,8 @@ body {
 
 .topNav {
   color: black;
+  font-size: 1.2em;
+  font-style: italic;
   text-decoration: none;
   margin-left: 50px;
 }
@@ -45,9 +50,13 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url("/html-css/dag-2/assets/m8.jpeg");
 }
 
-#mainHeader {
+main > p {
+  font-size: 1.2em;
+}
+
+h1 {
   font-style: italic;
-  color:rgba(0, 105, 235, 0.5);
 }
