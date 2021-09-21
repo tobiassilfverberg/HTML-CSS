@@ -195,6 +195,15 @@ section > p {
   text-align: center;
 }
 
+
+.mePic{
+  height: 300px;
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
 footer {
   height: 50px;
   width: 100vw;
