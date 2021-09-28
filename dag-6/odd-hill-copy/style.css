@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Averta Std,Open Sans,sans-serif;
+}
+
+header {
+    height: 4.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav > h1 {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.navBar > a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.firstContainer {
+    width: 100%;
+    padding: 65px 20px 20px 20px;
+    margin-bottom: 50px;
+}
+
+#welcomeText {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+#readMoreBtn {
+    background-color:gold;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+
+#readMoreBtn > a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding: 20px;
+}
+
+.secondContainer {
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.secondContainer > h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contentHolder {
+    margin-bottom: 30px;
+}
+
+.contentHolder > img {
+    width: 100%;
+    height: 150px;
+}
+
+.descriptionText {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#infoText {
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 25px;
+}
+
+.downArrow {
+    margin-right: 20px;
+}
+
+#smallText {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 35px;
+}
+
+.smallInfoBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.smallInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5px;
+}
+
+.smallInfo > img {
+    height: 75px;
+    width: 100%;
+}
+
+.smallInfoBoxText {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+#moreCasesBtn {
+    background-color:blue;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 5rem;
+}
+
+#moreCasesBtn > a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 450px) {
+    #readMoreBtn {
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .navBar {
+        display: none;
+    }
+    .lang {
+        display: none;
+    }
+}
+
