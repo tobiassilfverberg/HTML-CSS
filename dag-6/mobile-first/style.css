@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+nav > a {
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+article {
+    border-bottom: 3px solid black;
+    margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 620px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    article {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    main {
+        flex-wrap: nowrap;
+    }
+}
