@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+nav > img {
+    margin-left: 40px;
+}
+
+.links {
+    color: rgb(38, 179, 228); 
+    text-decoration: none;
+    margin: 20px;
+}
+
+.myAccount {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+    margin: 15px;
+}
+
+.logIn {
+    height: 35px;
+    width: 120px;
+    color: rgb(133, 197, 235);
+    border: 1px solid rgb(38, 179, 228);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.register {
+    height: 35px;
+    width: 120px;
+    color: white;
+    background-color: rgb(38, 179, 228);
+    border: 1px solid rgb(38, 179, 228);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    background-color: lightgrey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero > h1 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.joinToday {
+    height: 35px;
+    width: 120px;
+    color: white;
+    background-color: rgb(38, 179, 228);
+    border: 1px solid rgb(38, 179, 228);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstContainer {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+}
+
+.firstContainer > h2 {
+    font-weight: 400;
+    width: 30%;
+    line-height: 30px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentHolder {
+    width: 50%;
+}
+
+.contentHolder > h3 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.padding-right-25 {
+    padding-right: 25px;
+}
+
+.learnMore {
+    height: 35px;
+    width: 120px;
+    color: rgb(133, 197, 235);
+    border: 1px solid rgb(38, 179, 228);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.rowContent {
+    display: flex;
+    align-items: center;
+}
+
+.rowContent > img {
+    height: 50%;
+    width: 40%;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.contentText {
+    padding: 15px;
+}
+
+.contentText > h4 {
+    margin-bottom: 10px
+}
+
+.secondContainer {
+    padding: 5%;
+}
+
+.background-color-grey {
+    background-color: lightgrey;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.thirdContainer {
+    padding: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.thirdContainer > h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.boxHolder {
+    display: flex;
+    margin-top: 15px;
+}
+
+.box {
+    height: 40px;
+    width: 100px;
+    background: lightgray;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contentHolder {
+        width: 100%;
+    }
+    .padding-right-25 {
+        padding-right: 0px;
+    }
+    .rowContent > img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .rowContent {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navigation {
+        display: none;
+    }
+    .myAccount {
+        display: none;
+    }
+    .firstContainer > h2 {
+        width: 100%;
+    }
+    .boxHolder {
+        flex-wrap: wrap;
+    }
+}
