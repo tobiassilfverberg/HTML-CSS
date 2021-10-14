@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlämningsuppgift - HTML & CSS</title>
+    <script src="https://kit.fontawesome.com/876b4ba64a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/tux.png" alt="Linux logo" class="logo">
+
+        <h3>About Linux</h3>
+
+        <!--Visas vid medium skärm eller större-->
+        <nav class="full-size-nav">
+            <a href="#home" class="top-nav-links">Hem</a>
+            <a href="#manjaro" class="top-nav-links">Manjaro</a>
+            <a href="#ubuntu" class="top-nav-links">Ubuntu</a>
+            <a href="#popos" class="top-nav-links">Pop!_OS</a>
+            <a href="#otherLinks" class="top-nav-links">Andra länkar</a>
+            <a href="#contact" class="top-nav-links">Kontakt</a>
+        </nav>
+        <!--Visas vid liten skärm-->
+        <nav class="small-nav">
+            <button class="dropbtn">
+                <i class="fas fa-angle-double-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#home" class="top-nav-links">Hem</a>
+                <a href="#manjaro" class="top-nav-links">Manjaro</a>
+                <a href="#ubuntu" class="top-nav-links">Ubuntu</a>
+                <a href="#popos" class="top-nav-links">Pop!_OS</a>
+                <a href="#otherLinks" class="top-nav-links">Andra länkar</a>
+                <a href="#contact" class="top-nav-links">Kontakt</a>
+            </div>
+        </nav>
+    </header>
+
+    <div id="home" class="hero">
+        <h1>FOSS</h1>
+        <h4>And why it's good for you</h4>
+    </div>
+    
+    <main>
+        <section id="manjaro" class="article-wrapper">
+            <img src="img/manjaro_scrn.png" alt="manjaro pic" class="article-img">
+            <article class="text-wrapper">
+                <article class="header-wrapper">
+                    <img src="logos/manjaro.svg" alt="majaro logo">
+                    <h2 class="align-text">Manjaro</h2>
+                </article>
+                <p class="margin-top-10">Is an accessible, friendly, open-source operating system. Providing all the benefits of cutting-edge software combined with a focus on getting started quickly, automated tools to require less manual intervention, and help readily available when needed. Manjaro is suitable for both newcomers and experienced computer users.</p>
+                <p class="margin-top-10">Unlike proprietary operating systems you have full control over your hardware without restrictions. This makes Manjaro a powerful Operating System ideal in home, work, and development environments.</p>
+                <p class="margin-top-10">It is easily possible to run many popular Windows applications, using compatibility software such as Wine, PlayonLinux or Proton via Steam. The examples given here are far from comprehensive!</p>
+                <p class="margin-top-10">Representing a perfect middle-ground for those who want good performance, full control, and cutting-edge software but also a degree of software stability.</p>
+            </article>
+        </section>
+        <section id="ubuntu" class="article-wrapper">
+            <img src="img/ubuntu_scrn.jpeg" alt="ubuntu pic" class="article-img">
+            <article class="text-wrapper">
+                <article class="header-wrapper">
+                    <img src="logos/ubuntu.png" alt="ubuntu logo">
+                    <h2 class="align-text">Ubuntu</h2>
+                </article>
+                <h2 class="margin-top-15">Open Source</h2>
+                <p class="margin-top-5">Ubuntu has always been free to download, use and share. We believe in the power of open source software; Ubuntu could not exist without its worldwide community of voluntary developers.</p>
+                <h2 class="margin-top-15">Secure</h2>
+                <p class="margin-top-5">With a built-in firewall and virus protection software, Ubuntu is one of the most secure operating systems around. And the long-term support releases give you five years of security patches and updates.</p>
+                <h2 class="margin-top-15">Accessible</h2>
+                <p class="margin-top-5">Computing is for everyone regardless of nationality, gender or disability. Ubuntu is fully translated into over 50 languages and includes essential assistive technologies.</p>
+                <h2 class="margin-top-15">Available on the largest range of hardware, ever</h2>
+                <p class="margin-top-5">Canonical works closely with Dell, Lenovo and HP to certify that Ubuntu works on a wide range of their laptops and workstations. It means that a seamless Ubuntu experience is available out of the box with more hardware choice than ever.</p>
+                <p class="margin-top-10">And Ubuntu isn’t just for the desktop, it is used in data centres around the world powering every kind of server imaginable and is by far, the most popular operating system in the cloud.</p>
+            </article>
+        </section>
+        <section id="popos" class="article-wrapper">
+            <img src="img/popos_scrn.png" alt="popos img" class="article-img">
+            <article class="text-wrapper">
+                <article class="header-wrapper">
+                    <img src="logos/popos.png" alt="popos logo">
+                    <h2 class="align-text">Pop!_OS</h2>
+                </article>
+                <div class="text-container-wrapper">
+                    <p class="margin-top-10">Pop!_OS is an operating system for STEM and creative professionals who use their computer as a tool to discover and create.         Unleash your potential on secure, reliable open source software. Based on your exceptional curiosity, we sense you have a lot of it.
+                    </p>
+                    
+                    <div class="margin-top-5 text-container">
+                        <h2 class="margin-top-15">Auto-Tiling With Pop Shell</h2>
+                        Pop!_OS uses auto-tiling for the same reason that people hire assistants: Organizing your work is incredibly time-consuming. Sure, you could still move, resize, and arrange windows yourself, but why spend the time when your OS does it for you? Auto-tiling helps you be both organized and efficient, and is especially convenient on large displays.
+                    </div>
+                    <div class="margin-top-5 text-container">
+                        <h2 class="margin-top-15">Workspaces</h2>
+                        Keep relevant content together and irrelevant content out of sight. When the clutter overwhelms you, just toss it onto another desktop. Problem solved.
+                    </div>
+                    <div class="margin-top-5 text-container">
+                        <h2 class="margin-top-15">Keyboard Navigation</h2>
+                        Arm yourself with a dark-lord level of power at your fingertips. Use keyboard shortcuts to:
+                        <ul class="margin-top-15 padding-left-25">
+                            <li>Move/resize windows</li>
+                            <li>Search for anything</li>
+                            <li>Launch applications</li>
+                        </ul>
+                    </div> 
+                    <div class="margin-top-5 text-container">
+                        <h2 class="margin-top-15">Stacking</h2>
+                        Stack application windows atop one another like tabs in a web browser. Just remember to switch off of Steam when the boss walks in.
+                    </div>
+                </div>
+            </article>
+        </section>
+        <h1 class="text-align-center">Things that runs different flavours of Linux</h1>
+        <div class="info-holder">
+            <section id="otherLinks" class="info-wrapper">
+                <i class="fab fa-raspberry-pi"></i>
+                <h2 class="text-align-center">Raspberry Pi</h2>
+                <p class="margin-top-5">Raspberry Pi 400 is your complete personal computer, built into a compact keyboard. Featuring a quad-core 64-bit processor, 4GB of RAM, wireless networking, dual-display output, and 4K video playback, as well as a 40-pin GPIO header, it's the most powerful and easy-to-use Raspberry Pi computer yet.</p>
+            </section>
+            <section class="info-wrapper">
+                <i class="fas fa-server"></i>
+                <h2 class="text-align-center">Most servers run on Linux!</h2>
+                <p class="margin-top-5">Facebook, Google, Amazon all use some variant of Linux on their servers.</p>
+            </section>
+        </div>
+        <div class="info-holder">
+            <section class="info-wrapper">
+                <i class="fas fa-list-ol"></i>
+                <h2 class="text-align-center">Your every day competition</h2>
+                <p class="margin-top-5">You use Linux indirectly every day. While surfing the web, using your android device or just playing some games on your Playstation 5. Even your smart washing machine is probably using Linux.</p>
+            </section>
+            <section class="info-wrapper">
+                <i class="fas fa-dollar-sign"></i>
+                <h2 class="text-align-center">How can (a lot of) all these amazing things be totally free?</h2>
+                <p class="margin-top-5">Most things Linux are open source. This means the source code for these things can be modified and used very freely to build other things. Like the Android operating system or the version of BSD running on the Playstation 5. It's a team effort where everyone can contribute.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer id="contact">
+        <p> Tobias Silfverberg: <a href="mailto:tobias.silfverberg@medieinstitutet.se">Mejla mig här</a> </p>
+    </footer>
+</body>
+</html>
